@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <script type="text/javascript" src="romanceFunctions.js"></script>
+        <script type="text/javascript" src="comedyFunctions.js"></script>
+        <script type="text/javascript" src="dramaFunctions.js"></script>
+        <title>Storytella</title>
+    </head>
+
+    <body>
+        <h1>Welcome to Storytella!!</h1>
+
+        <p>Hello! I am Storytella. I can help you create your own stories! First step is to choose a genre of story... </p>
+
+        <input type = "radio" name = "genre" value = "romance" onclick="generateRomanceIncidents()">Romance <br>
+        <input type = "radio" name = "genre" value = "comedy" onclick="generateComedyIncidents()">Comedy <br>
+        <input type = "radio" name = "genre" value = "crime" onclick="generateCrimeIncidents()">Crime <br>
+        
+        <p>Next step, choose some character names...</p>
+
+        Character 1: <br>
+        <input type = "text" id = "character1"><br>
+        Character 2: <br>
+        <input type = "text" id = "character2"><br>
+
+        <p>Next, choose an exciting incident...</p>
+       
+        <p id = "incidents"></p>
+
+        <p id = "storyStart"></p>
+
+        <p id = "storyEnd"></p>
+
+        <p>Please complete the survey below...</p>
+        <a href="https://www.surveymonkey.co.uk/r/LDLH8QJ">Survey Here!</a>
+    </body>
+</html>
+
